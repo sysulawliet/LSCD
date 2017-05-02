@@ -1,0 +1,11 @@
+Data:
+    'movielens_data.mat' and 'amazon_data.mat' contian the rating recoreds of four domains and we have divided the two datasets into training set and test set.
+
+Function:
+    LSCD.m: Main function.
+    GetMatrix.m: transform the rating records into a user-item rating matirx.
+    shrinkage.m: used to optimize the objective function.
+    MAE.m and RMSE.m: two widely used measurements.
+
+Demo:
+    Run 'demo_amazon.m' and 'demo_movielens.m' directly to get the results of rating predictions.
